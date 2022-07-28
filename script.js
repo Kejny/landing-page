@@ -23,6 +23,7 @@ const showGreeting = () => {
     else if (hour >= 18)  text = "Good Evening!"
     title.textContent = text;
 }
+console.log("aaaa")
 
 window.addEventListener ("DOMContentLoaded", () => {
     menuToggler();
